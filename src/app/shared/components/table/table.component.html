@@ -1,0 +1,14 @@
+<table id="table__info">
+  <tr>
+    <th>Name</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+    <th>Temperature</th>
+  </tr>
+  <tr *ngFor="let data of ObjectData">
+    <td>{{ data.name }}</td>
+    <td>{{ data.startTime }}</td>
+    <td>{{ data.endTime }}</td>
+    <td>{{ data.temperature }}</td>
+  </tr>
+</table>
